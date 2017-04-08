@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RegressionSuite">
+              <span class="suite-name border-passed">RegressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RegressionSuite">
+                    <span>F:\Automation\Nishant\RestSampleColumbine\RestSample\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RegressionSuite">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RegressionSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RegressionSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RegressionSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RegressionSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RegressionSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="CreateCrossConnetc(TG300006)">CreateCrossConnetc(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="CreateRouterConfig(TG300006)">CreateRouterConfig(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="DeleteCrossConnetc(TG300006)">DeleteCrossConnetc(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="GetAccesspoint(TG300006)">GetAccesspoint(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="GetSpeeds(TG300006)">GetSpeeds(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="Get_tech_profile_list(TG300006)">Get_tech_profile_list(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="OamTest_new(TG300006)">OamTest_new(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="OpenCloseService(TG300006)">OpenCloseService(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="Retrain(TG300006)">Retrain(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="SetSpeed(TG300006)">SetSpeed(TG300006)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateCrossConnetc(TG300006)">
+                  </a> <!-- CreateCrossConnetc(TG300006) -->
+                  <span class="method-name">CreateCrossConnetc</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateRouterConfig(TG300006)">
+                  </a> <!-- CreateRouterConfig(TG300006) -->
+                  <span class="method-name">CreateRouterConfig</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteCrossConnetc(TG300006)">
+                  </a> <!-- DeleteCrossConnetc(TG300006) -->
+                  <span class="method-name">DeleteCrossConnetc</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAccesspoint(TG300006)">
+                  </a> <!-- GetAccesspoint(TG300006) -->
+                  <span class="method-name">GetAccesspoint</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetSpeeds(TG300006)">
+                  </a> <!-- GetSpeeds(TG300006) -->
+                  <span class="method-name">GetSpeeds</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_tech_profile_list(TG300006)">
+                  </a> <!-- Get_tech_profile_list(TG300006) -->
+                  <span class="method-name">Get_tech_profile_list</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OamTest_new(TG300006)">
+                  </a> <!-- OamTest_new(TG300006) -->
+                  <span class="method-name">OamTest_new</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenCloseService(TG300006)">
+                  </a> <!-- OpenCloseService(TG300006) -->
+                  <span class="method-name">OpenCloseService</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Retrain(TG300006)">
+                  </a> <!-- Retrain(TG300006) -->
+                  <span class="method-name">Retrain</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SetSpeed(TG300006)">
+                  </a> <!-- SetSpeed(TG300006) -->
+                  <span class="method-name">SetSpeed</span>
+                  <span class="parameters">(TG300006)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+        </div> <!-- panel RegressionSuite -->
+        <div panel-name="test-xml-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Automation\Nishant\RestSampleColumbine\RestSample\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RegressionSuite&quot;&gt;
+  &lt;test name=&quot;GetAccesspoint&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;GetAccesspoint&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetAccesspoint --&gt;
+  &lt;test name=&quot;SetSpeed&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;SetSpeed&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SetSpeed --&gt;
+  &lt;test name=&quot;GetSpeeds&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;GetSpeeds&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetSpeeds --&gt;
+  &lt;test name=&quot;Retrain&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Retrain&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Retrain --&gt;
+  &lt;test name=&quot;OamTest_new&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;OamTest_new&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OamTest_new --&gt;
+  &lt;test name=&quot;OpenCloseService&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;OpenCloseService&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OpenCloseService --&gt;
+  &lt;test name=&quot;CreateCrossConnetc&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CreateCrossConnetc&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateCrossConnetc --&gt;
+  &lt;test name=&quot;DeleteCrossConnetc&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;DeleteCrossConnetc&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DeleteCrossConnetc --&gt;
+  &lt;test name=&quot;Get_tech_profile_list&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Get_tech_profile_list&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Get_tech_profile_list --&gt;
+  &lt;test name=&quot;CreateRouterConfig&quot;&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CreateRouterConfig&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.TestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateRouterConfig --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GetAccesspoint (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SetSpeed (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetSpeeds (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Retrain (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OamTest_new (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OpenCloseService (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CreateCrossConnetc (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DeleteCrossConnetc (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Get_tech_profile_list (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CreateRouterConfig (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionSuite');
+function tableData_RegressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'OamTest_new')
+data.setCell(0, 2, 'testCases.TestCases')
+data.setCell(0, 3, 6787);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GetAccesspoint')
+data.setCell(1, 2, 'testCases.TestCases')
+data.setCell(1, 3, 4965);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetSpeeds')
+data.setCell(2, 2, 'testCases.TestCases')
+data.setCell(2, 3, 4142);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OpenCloseService')
+data.setCell(3, 2, 'testCases.TestCases')
+data.setCell(3, 3, 3784);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SetSpeed')
+data.setCell(4, 2, 'testCases.TestCases')
+data.setCell(4, 3, 3711);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CreateRouterConfig')
+data.setCell(5, 2, 'testCases.TestCases')
+data.setCell(5, 3, 3438);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Get_tech_profile_list')
+data.setCell(6, 2, 'testCases.TestCases')
+data.setCell(6, 3, 3378);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DeleteCrossConnetc')
+data.setCell(7, 2, 'testCases.TestCases')
+data.setCell(7, 3, 3261);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Retrain')
+data.setCell(8, 2, 'testCases.TestCases')
+data.setCell(8, 3, 3230);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CreateCrossConnetc')
+data.setCell(9, 2, 'testCases.TestCases')
+data.setCell(9, 3, 19);
+window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-RegressionSuite">
+              </div> <!-- times-div-RegressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">100 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">DeleteCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Retrain</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">Get_tech_profile_list</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">GetAccesspoint</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">OpenCloseService</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">SetSpeed</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">Set_tech_profile</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">CreateRouterConfig</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">OamTest_new</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">GetSpeeds</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+                <span class="ignored-method-name">CreateCrossConnetc</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuite(org.testng.TestRunner@1091e66)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1e2d3c2)</span>
+                <span class="method-start">6345 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetAccesspoint(TG300006)</span>
+                <span class="method-start">6368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetAccesspoint status=SUCCESS method=TestCases.GetAccesspoint(java.lang.String)[pri...)</span>
+                <span class="method-start">11333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SetSpeed(TG300006)</span>
+                <span class="method-start">11367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">11367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1710933)</span>
+                <span class="method-start">11367 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SetSpeed status=SUCCESS method=TestCases.SetSpeed(java.lang.String)[pri:0, instance...)</span>
+                <span class="method-start">15078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">15090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@132a60)</span>
+                <span class="method-start">15090 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">GetSpeeds(TG300006)</span>
+                <span class="method-start">15091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetSpeeds status=SUCCESS method=TestCases.GetSpeeds(java.lang.String)[pri:0, instan...)</span>
+                <span class="method-start">19233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@432a9e)</span>
+                <span class="method-start">19248 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Retrain(TG300006)</span>
+                <span class="method-start">19249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">19249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Retrain status=SUCCESS method=TestCases.Retrain(java.lang.String)[pri:0, instance:t...)</span>
+                <span class="method-start">22479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1a303d3)</span>
+                <span class="method-start">22492 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">OamTest_new(TG300006)</span>
+                <span class="method-start">22493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=OamTest_new status=SUCCESS method=TestCases.OamTest_new(java.lang.String)[pri:0, in...)</span>
+                <span class="method-start">29280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">29295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1501696)</span>
+                <span class="method-start">29295 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">OpenCloseService(TG300006)</span>
+                <span class="method-start">29296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=OpenCloseService status=SUCCESS method=TestCases.OpenCloseService(java.lang.String)...)</span>
+                <span class="method-start">33080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">33093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@fae917)</span>
+                <span class="method-start">33093 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CreateCrossConnetc(TG300006)</span>
+                <span class="method-start">33094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CreateCrossConnetc status=SUCCESS method=TestCases.CreateCrossConnetc(java.lang.Str...)</span>
+                <span class="method-start">33114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DeleteCrossConnetc(TG300006)</span>
+                <span class="method-start">33126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">33126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@dd18cc)</span>
+                <span class="method-start">33126 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DeleteCrossConnetc status=SUCCESS method=TestCases.DeleteCrossConnetc(java.lang.Str...)</span>
+                <span class="method-start">36388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Get_tech_profile_list(TG300006)</span>
+                <span class="method-start">36403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@18703c7)</span>
+                <span class="method-start">36403 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Get_tech_profile_list status=SUCCESS method=TestCases.Get_tech_profile_list(java.la...)</span>
+                <span class="method-start">39781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1091e66)</span>
+                <span class="method-start">39794 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CreateRouterConfig(TG300006)</span>
+                <span class="method-start">39795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">39795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CreateRouterConfig status=SUCCESS method=TestCases.CreateRouterConfig(java.lang.Str...)</span>
+                <span class="method-start">43234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">43250 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

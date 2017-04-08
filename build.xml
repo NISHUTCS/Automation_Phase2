@@ -1,0 +1,11 @@
+<project name="Hello Test" basedir=".">
+
+<target name="compile">
+       <javac srcdir="D:\SoapSample\src\util" includeantruntime="true" includes="Readtest.java" destdir="."></javac>
+</target>
+
+<target name="run" depends="compile">
+       <java classname="Readtest" fork="true"></java>
+</target>
+
+</project>

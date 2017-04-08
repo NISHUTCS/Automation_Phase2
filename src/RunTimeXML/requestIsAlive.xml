@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE ihtsoa SYSTEM "gisla-pn2.ip.tdk.dk/ihtsoa/ihtsoaWholeSale.dtd">
+<ihtsoa operation="get_accesspoint">
+ <header
+  userid = "lwe"
+  useremail ="lawe@tdc.dk"
+  trackingid = "poster_20170404105124"
+  versionid = "1.0"
+  companyid = "TDC"
+  forceresult = "1"
+ />
+ <get_accesspoint_request
+  lid = "62661545"
+ />
+</ihtsoa>

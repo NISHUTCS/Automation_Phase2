@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<suite name='RegressionSuite'>
+<test name='GetAccesspoint'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='GetAccesspoint' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='SetSpeed'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='SetSpeed' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='GetSpeeds'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='GetSpeeds' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='Retrain'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='Retrain' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='OamTest_new'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='OamTest_new' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='OpenCloseService'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='OpenCloseService' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='CreateCrossConnetc'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='CreateCrossConnetc' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='DeleteCrossConnetc'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='DeleteCrossConnetc' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='Get_tech_profile_list'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='Get_tech_profile_list' />
+</methods>
+</class>
+</classes>
+</test>
+<test name='CreateRouterConfig'>
+<parameter name='LID' value='TG300006' />
+<classes>
+<class name='testCases.TestCases'>
+<methods>
+<include name='CreateRouterConfig' />
+</methods>
+</class>
+</classes>
+</test>
+</suite>

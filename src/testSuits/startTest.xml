@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<suite name='baseTest'>
+	<test name='CreateTestXml'>
+		<classes>
+			<class name='util.Readtest'>
+				<methods>
+					<include name='starttest' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

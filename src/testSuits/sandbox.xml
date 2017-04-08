@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionTestSuit" verbose="1" parallel="tests">
+	<test name="Create Network Operations">
+		<parameter name="transactionId" value="prashant1" />
+		<parameter name="externalInstallationID" value="444401" />
+		<classes>
+			<class name="testCases.TestCases">
+				<methods>
+					<include name="CreateNetworkOperations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Create Network Operations">
+		<parameter name="transactionId" value="prashant1" />
+		<parameter name="externalInstallationID" value="444401" />
+		<classes>
+			<class name="testCases.TestCases">
+				<methods>
+					<include name="CreateNetworkOperations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!--test name="CU_Search_Star_AccNum_MobilNum_CVR"> <classes> <class name="tests.FixnetTestCases"> 
+		<methods> <include name="CU_Search_Star_AccNum_MobilNum_CVR" /> </methods> 
+		</class> </classes> </test -->
+	<!--test name="Sandbox2"> <classes> <class name="tests.ScaleTestCases"> 
+		<methods> <include name="Sandbox" /> </methods> </class> </classes> </test> 
+		<test name="Sandbox3"> <classes> <class name="tests.ScaleTestCases"> <methods> 
+		<include name="Sandbox" /> </methods> </class> </classes> </test> <test name="Sandbox4"> 
+		<classes> <class name="tests.ScaleTestCases"> <methods> <include name="Sandbox" 
+		/> </methods> </class> </classes> </test> <test name="Sandbox5"> <classes> 
+		<class name="tests.ScaleTestCases"> <methods> <include name="Sandbox" /> 
+		</methods> </class> </classes> </test -->
+	<!-- test name="Scale_Company_Department_Create_Edit_Delete_Department_ActiveNumber1"> 
+		<classes> <class name="tests.ScaleTestCases"> <methods> <include name="Sandbox" 
+		/> </methods> </class> </classes> </test> <test name="Scale_Company_Department_Create_Edit_Delete_Department_ActiveNumber2"> 
+		<classes> <class name="tests.ScaleTestCases"> <methods> <include name="Sandbox" 
+		/> </methods> </class> </classes> </test -->
+
+	<!-- test name="Scale_Company_MainNumber_Select_Active_Mobile"> <classes> 
+		<class name="tests.ScaleTestCases"> <methods> <include name="Scale_Company_MainNumber_Select_Active_Mobile" 
+		/> </methods> </class> </classes> </test -->
+
+	<!-- test name="Scale_Configuration_CallCenter_Setup_AddAgent_IE"> <classes> 
+		<class name="tests.ScaleTestCases"> <methods> <parameter name="Browser" value="firefox" 
+		/> <parameter name="CallcenterName" value="Automa_IE" /> <parameter name="LocalNumber" 
+		value="376" /> <include name="Scale_Configuration_CallCenter_Setup_AddAgent" 
+		/> </methods> </class> </classes> </test> <test name="Scale_Configuration_CallCenter_Setup_AddAgent_Firefox"> 
+		<classes> <class name="tests.ScaleTestCases"> <methods> <parameter name="Browser" 
+		value="firefox" /> <parameter name="CallcenterName" value="Autofirefox" /> 
+		<parameter name="LocalNumber" value="377" /> <include name="Scale_Company_Schedule_Create" 
+		/> </methods> </class> </classes> </test> <test name="Scale_Configuration_CallCenter_Setup_AddAgent_Firefox1"> 
+		<classes> <class name="tests.ScaleTestCases"> <methods> <parameter name="Browser" 
+		value="firefox" /> <parameter name="CallcenterName" value="Autofirefox" /> 
+		<parameter name="LocalNumber" value="378" /> <include name="Scale_Company_Schedule_Create" 
+		/> </methods> </class> </classes> </test> <test name="Scale_Configuration_CallCenter_Setup_AddAgent_Firefox100"> 
+		<classes> <class name="tests.ScaleTestCases"> <methods> <parameter name="Browser" 
+		value="firefox" /> <parameter name="CallcenterName" value="Autofirefox" /> 
+		<parameter name="LocalNumber" value="372" /> <include name="Scale_Company_Schedule_Create" 
+		/> </methods> </class> </classes> </test -->
+
+
+	<!--test name="TestLogin_Firefox" > <classes> <class name="tests.test1"> 
+		<methods> <parameter name="Browser" value="firefox"/> <include name="POMTest" 
+		/> </methods> </class> </classes> </test> <test name="TestLogin_IE" > <classes> 
+		<class name="tests.test1"> <methods> <parameter name="Browser" value="IE"/> 
+		<include name="POMTest" /> </methods> </class> </classes> </test -->
+
+
+</suite>
