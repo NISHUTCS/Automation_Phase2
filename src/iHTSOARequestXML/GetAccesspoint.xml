@@ -4,12 +4,12 @@
  <header
   userid = "lwe"
   useremail ="lawe@tdc.dk"
-  trackingid = "poster_20170404105124"
+  trackingid = "poster_20170411012313"
   versionid = "1.0"
   companyid = "TDC"
   forceresult = "1"
  />
  <get_accesspoint_request
-  lid = "v_lid"
+  lid = "62661545"
  />
 </ihtsoa>

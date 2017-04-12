@@ -1,5 +1,0 @@
-2017-04-08 11:01:12 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2017-04-08 11:01:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2017-04-08 11:01:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2017-04-08 11:01:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2017-04-08 11:01:12 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/F:/Automation/Nishant/RestSampleColumbine/RestSample/lib/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

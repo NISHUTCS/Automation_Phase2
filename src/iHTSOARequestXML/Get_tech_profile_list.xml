@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE ihtsoa SYSTEM "gisla-pn2.ip.tdk.dk/ihtsoa/ihtsoaWholeSale.dtd">
-<ihtsoa operation="get_accesspoint">
+<ihtsoa operation="get_tech_profile_list">
  <header
-  userid = "lwe"
-  useremail ="lawe@tdc.dk"
-  trackingid = "poster_20170404105124"
-  versionid = "1.0"
-  companyid = "TDC"
-  forceresult = "1"
+  userid="prose"
+  useremail="prose@tdc.dk"
+  trackingid="poster_20120824100147"
+  versionid="1.0"
+  companyid="TDC"
+  forceresult="1"
+  serverid="gisla-pn2.ip.tdk.dk"
  />
- <get_accesspoint_request
-  lid = "v_lid"
- />
+ <get_tech_profile_list_request
+    dslam="apt4xda5"
+    port="1"
+/>
 </ihtsoa>
