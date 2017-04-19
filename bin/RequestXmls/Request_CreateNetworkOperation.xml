@@ -1,0 +1,45 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ser="http://services.syncsrv.com/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<ser:syncAddressNetwork>
+			<!--Optional: -->
+			<syncAddressNetwork>
+				<transactionId>v_transactionId</transactionId>
+				<sfpName>(VJ)vj15</sfpName>
+				<externalSFPName>MID-02-03</externalSFPName>
+				<odfName></odfName>
+				<odfRack></odfRack>
+				<odfNr>10</odfNr>
+				<odfKassette>7</odfKassette>
+				<odfPort1>4</odfPort1>
+				<odfPort2>5</odfPort2>
+				<addressType>Official</addressType>
+				<postCode>7100</postCode>
+				<streetCode>943</streetCode>
+				<streetName>Hesseltoft</streetName>
+				<municipalName>Vejle</municipalName>
+				<municipalCode>630</municipalCode>
+				<houseNumber>15</houseNumber>
+				<floor />
+				<suite />
+				<fiberEnabling>Y</fiberEnabling>
+				<deselectionDate>2015-05-12T23:00:00.000Z</deselectionDate>
+				<deselectionReason>0</deselectionReason>
+				<externalInstallationID>v_externalInstallationID</externalInstallationID>
+				<installationCode>2</installationCode>
+				<infrastructureType>9</infrastructureType>
+				<diggingLength>23</diggingLength>
+				<noOfConnections>2</noOfConnections>
+				<networkType>4</networkType>
+				<owner>TREFOR</owner>
+				<fiberBoxModelName />
+				<operationalDateFrom>2015-05-19T23:00:00.000Z</operationalDateFrom>
+				<sourceSystem></sourceSystem>
+				<networkAction>Create</networkAction>
+				<updateAddress></updateAddress>
+				<externalRemarks>B-VJE0201-03</externalRemarks>
+			</syncAddressNetwork>
+		</ser:syncAddressNetwork>
+	</soapenv:Body>
+</soapenv:Envelope>

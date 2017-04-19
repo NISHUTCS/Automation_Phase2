@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<suite name='RegressionSuite'>
+	<test name='CreateNetworkOperations'>
+		<parameter name='transactionId' value='prashant1' />
+		<parameter name='externalInstallationID' value='444400' />
+		<classes>
+			<class name='testCases.TestCases'>
+				<methods>
+					<include name='CreateNetworkOperations' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name='IsSynServiceAlive'>
+		<parameter name='transactionId' value='null' />
+		<parameter name='externalInstallationID' value='null' />
+		<classes>
+			<class name='testCases.TestCases'>
+				<methods>
+					<include name='IsSynServiceAlive' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

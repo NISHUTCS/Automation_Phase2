@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE ihtsoa SYSTEM "gisla-pn2.ip.tdk.dk/ihtsoa/ihtsoaWholeSale.dtd">
+<ihtsoa operation="oamtest">
+ <header
+  userid = "javi"
+  useremail ="javi@tdc.dk"
+  trackingid = "poster_20170411012313"
+  versionid = "1.0"
+  companyid = "TDC"
+  forceresult = "1"
+ />
+ <oamtest_request
+  sik = "KAOEFIB2"
+  dslam = "aptxda1"
+  port = "11715"
+ />
+</ihtsoa>

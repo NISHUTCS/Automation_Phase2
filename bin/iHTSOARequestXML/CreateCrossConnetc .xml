@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE ihtsoa SYSTEM "gisla-pn2.ip.tdk.dk/ihtsoa/ihtsoaWholeSale.dtd">
+<ihtsoa operation="createcrossconnect">
+ <header
+  userid = "lwe"
+  useremail ="lawe@tdc.dk"
+  trackingid = "poster_20170411012313"
+  versionid = "1.0"
+  companyid = "TDC"
+  forceresult = "1"
+ />
+ <createcrossconnect_request
+  sik = "PS200006"
+  dslam = "apt4xdd7"
+  port = "3"a
+ />
+</ihtsoa>
