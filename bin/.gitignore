@@ -1,9 +1,5 @@
-/RequestXmls/
-/RunTimeXML/
-/TestData/
 /XMLObjectOR/
-/iHTSOARequestXML/
-/iHTSOAResponceXML/
 /testCases/
-/testSuits/
 /util/
+/iHTSOAResponceXML/
+/TestData/
