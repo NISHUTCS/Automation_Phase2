@@ -10,9 +10,9 @@
   forceresult = "1"
  />
  <get_speeds_request
-  lid = "12345678"
-  channel_id = "87654321"
-  dslam = "aptxda1"
-  port = "1"
+  lid = "v_lid"
+  channel_id = "v_channel_id"
+  dslam = "v_dslam"
+  port = "v_dslam"
  />
 </ihtsoa>

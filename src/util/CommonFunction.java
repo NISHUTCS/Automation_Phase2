@@ -45,6 +45,7 @@ public class CommonFunction {
 		//s=s.replaceAll("v_externalInstallationID", externalInstallationID);
 		return s;
 	}
+	
 	public String builtColumbineXMLwithEncodedValue(String xmlFile2Send,Reporting obj_testReport,String encodedValue) throws IOException{
 		FileInputStream fin = new FileInputStream(xmlFile2Send);
 		ByteArrayOutputStream bout = new ByteArrayOutputStream();
