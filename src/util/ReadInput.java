@@ -91,8 +91,12 @@ public class ReadInput {
 					if (file1.getName().contains(syncServiceSheet.getRow(i).getCell(1).getStringCellValue())) {
 						String testName=syncServiceSheet.getRow(i).getCell(1).getStringCellValue();
 						String LID=syncServiceSheet.getRow(i).getCell(2).getStringCellValue();
+						String channel_id=syncServiceSheet.getRow(i).getCell(3).getStringCellValue();
+						String dslam=syncServiceSheet.getRow(i).getCell(4).getStringCellValue();
+						String port= String.valueOf(syncServiceSheet.getRow(i).getCell(5).getStringCellValue());
+						String sik=syncServiceSheet.getRow(i).getCell(6).getStringCellValue();
 						//String externalInstallationID=syncServiceSheet.getRow(i).getCell(3).getStringCellValue();
-						AddTest addtest = new AddTest(testName, LID);
+						AddTest addtest = new AddTest(testName, LID, channel_id, dslam, port, sik);
 						al.add(addtest);
 					}
 				}
@@ -112,8 +116,12 @@ public class ReadInput {
 					if (syncServiceSheet.getRow(i).getCell(1).getStringCellValue().contains(file1.getName())) {
 						String testName=syncServiceSheet.getRow(i).getCell(1).getStringCellValue();
 						String LID=syncServiceSheet.getRow(i).getCell(2).getStringCellValue();
+						String channel_id=syncServiceSheet.getRow(i).getCell(3).getStringCellValue();
+						String dslam=syncServiceSheet.getRow(i).getCell(4).getStringCellValue();
+						String port=syncServiceSheet.getRow(i).getCell(5).getStringCellValue();
+						String sik=syncServiceSheet.getRow(i).getCell(6).getStringCellValue();
 						//String externalInstallationID=syncServiceSheet.getRow(i).getCell(3).getStringCellValue();
-						AddTest addtest = new AddTest(testName, LID);
+						AddTest addtest = new AddTest (testName, LID, channel_id, dslam, port, sik);;
 						al.add(addtest);
 
 					}

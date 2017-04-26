@@ -44,11 +44,23 @@ public class testNGXmlgeneration {
 			AddTest st=(AddTest)itr.next();
 			String testName = st.testName;
 			String LID=st.LID;
+			String channel_id=st.channel_id;
+			String dslam=st.dslam;
+			String port=st.port;
+			String sik=st.sik;
 			//String externalInstallationID=st.externalInstallationID;					
 			
 			br.write("<test name='"+testName+"'>");
 			br.newLine();
 			br.write("<parameter name='LID' value='"+LID+"' />");
+			br.newLine();
+			br.write("<parameter name='channel_id' value='"+channel_id+"' />");
+			br.newLine();
+			br.write("<parameter name='dslam' value='"+dslam+"' />");
+			br.newLine();
+			br.write("<parameter name='port' value='"+port+"' />");
+			br.newLine();
+			br.write("<parameter name='sik' value='"+sik+"' />");
 			br.newLine();
 			/*br.write("<parameter name='externalInstallationID' value='"+externalInstallationID+"' />");
 			br.newLine();*/

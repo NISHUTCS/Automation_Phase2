@@ -46,6 +46,20 @@ public class CommonFunction {
 		return s;
 	}
 	
+	public String createDesiredXML_GetSpeds(String xmlFile2Send,Reporting obj_testReport,String LID,String channel_id, String dslam, String port, String sik) throws IOException{
+		FileInputStream fin = new FileInputStream(xmlFile2Send);
+		ByteArrayOutputStream bout = new ByteArrayOutputStream();
+		copy(fin, bout);
+		fin.close();
+		byte[] b = bout.toByteArray();
+		StringBuffer buf=new StringBuffer();
+		String s=new String(b);
+		//replacing a sample value in Request XML
+		s=s.replaceAll("v_lid", LID);
+		//s=s.replaceAll("v_externalInstallationID", externalInstallationID);
+		return s;
+	}
+	
 	public String builtColumbineXMLwithEncodedValue(String xmlFile2Send,Reporting obj_testReport,String encodedValue) throws IOException{
 		FileInputStream fin = new FileInputStream(xmlFile2Send);
 		ByteArrayOutputStream bout = new ByteArrayOutputStream();

@@ -13,7 +13,7 @@ import util.TestBase;
 
 public class TestCases extends TestBase {
 	public static String pureSuiteName;
-
+	
 	@Parameters({ "LID"})
 	@Test
 	public void GetAccesspoint(String LID) throws FileNotFoundException {
@@ -74,9 +74,9 @@ public class TestCases extends TestBase {
 		}
 	}
 
-	@Parameters("LID")
+	@Parameters({ "LID","channel_id","dslam","port","sik" })
 	@Test
-	public void GetSpeeds(String LID) throws FileNotFoundException {
+	public void GetSpeeds(String LID, String channel_id, String dslam, String port, String sik) throws FileNotFoundException {
 		//String statuscode = "statuscode=0";
 		CommonFunction cnf  = new CommonFunction();
 		cnf.getXMLtoSend();

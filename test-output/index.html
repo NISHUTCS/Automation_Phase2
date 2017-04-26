@@ -122,17 +122,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="GetSpeeds(TG300006)">GetSpeeds(TG300006)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="GetSpeeds(PS300206, null, null, null, null)">GetSpeeds(PS300206, null, null, null, null)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="Get_tech_profile_list(TG300006)">Get_tech_profile_list(TG300006)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="Get_tech_profile_list()">Get_tech_profile_list()</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="OamTest_new(TG300006)">OamTest_new(TG300006)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="OamTest_new()">OamTest_new()</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,12 +142,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="Retrain(TG300006)">Retrain(TG300006)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="Retrain()">Retrain()</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="SetSpeed(TG300006)">SetSpeed(TG300006)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuite" title="testCases.TestCases" hash-for-method="SetSpeed()">SetSpeed()</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-RegressionSuite -->
@@ -202,26 +202,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="GetSpeeds(TG300006)">
-                  </a> <!-- GetSpeeds(TG300006) -->
+                  <a name="GetSpeeds(PS300206, null, null, null, null)">
+                  </a> <!-- GetSpeeds(PS300206, null, null, null, null) -->
                   <span class="method-name">GetSpeeds</span>
-                  <span class="parameters">(TG300006)</span>
+                  <span class="parameters">(PS300206, null, null, null, null)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Get_tech_profile_list(TG300006)">
-                  </a> <!-- Get_tech_profile_list(TG300006) -->
+                  <a name="Get_tech_profile_list()">
+                  </a> <!-- Get_tech_profile_list() -->
                   <span class="method-name">Get_tech_profile_list</span>
-                  <span class="parameters">(TG300006)</span>
+                  <span class="parameters">()</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="OamTest_new(TG300006)">
-                  </a> <!-- OamTest_new(TG300006) -->
+                  <a name="OamTest_new()">
+                  </a> <!-- OamTest_new() -->
                   <span class="method-name">OamTest_new</span>
-                  <span class="parameters">(TG300006)</span>
+                  <span class="parameters">()</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -234,18 +234,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Retrain(TG300006)">
-                  </a> <!-- Retrain(TG300006) -->
+                  <a name="Retrain()">
+                  </a> <!-- Retrain() -->
                   <span class="method-name">Retrain</span>
-                  <span class="parameters">(TG300006)</span>
+                  <span class="parameters">()</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SetSpeed(TG300006)">
-                  </a> <!-- SetSpeed(TG300006) -->
+                  <a name="SetSpeed()">
+                  </a> <!-- SetSpeed() -->
                   <span class="method-name">SetSpeed</span>
-                  <span class="parameters">(TG300006)</span>
+                  <span class="parameters">()</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -261,6 +261,10 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;RegressionSuite&quot;&gt;
   &lt;test name=&quot;GetAccesspoint&quot;&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
     &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
@@ -271,7 +275,11 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GetAccesspoint --&gt;
   &lt;test name=&quot;SetSpeed&quot;&gt;
-    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
         &lt;methods&gt;
@@ -281,7 +289,11 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SetSpeed --&gt;
   &lt;test name=&quot;GetSpeeds&quot;&gt;
-    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;PS300206&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
         &lt;methods&gt;
@@ -291,7 +303,11 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GetSpeeds --&gt;
   &lt;test name=&quot;Retrain&quot;&gt;
-    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
         &lt;methods&gt;
@@ -301,7 +317,11 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Retrain --&gt;
   &lt;test name=&quot;OamTest_new&quot;&gt;
-    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
         &lt;methods&gt;
@@ -311,6 +331,10 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OamTest_new --&gt;
   &lt;test name=&quot;OpenCloseService&quot;&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
     &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
@@ -321,6 +345,10 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OpenCloseService --&gt;
   &lt;test name=&quot;CreateCrossConnetc&quot;&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
     &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
@@ -331,6 +359,10 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- CreateCrossConnetc --&gt;
   &lt;test name=&quot;DeleteCrossConnetc&quot;&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
     &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
@@ -341,7 +373,11 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- DeleteCrossConnetc --&gt;
   &lt;test name=&quot;Get_tech_profile_list&quot;&gt;
-    &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;LID&quot; value=&quot;&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
         &lt;methods&gt;
@@ -351,6 +387,10 @@
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Get_tech_profile_list --&gt;
   &lt;test name=&quot;CreateRouterConfig&quot;&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;dslam&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;sik&quot; value=&quot;null&quot;/&gt;
+    &lt;parameter name=&quot;channel_id&quot; value=&quot;null&quot;/&gt;
     &lt;parameter name=&quot;LID&quot; value=&quot;TG300006&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestCases&quot;&gt;
@@ -426,45 +466,45 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DeleteCrossConnetc')
+data.setCell(0, 1, 'GetAccesspoint')
 data.setCell(0, 2, 'testCases.TestCases')
-data.setCell(0, 3, 13214);
+data.setCell(0, 3, 13171);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'GetAccesspoint')
+data.setCell(1, 1, 'OpenCloseService')
 data.setCell(1, 2, 'testCases.TestCases')
-data.setCell(1, 3, 8413);
+data.setCell(1, 3, 10366);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'OpenCloseService')
+data.setCell(2, 1, 'DeleteCrossConnetc')
 data.setCell(2, 2, 'testCases.TestCases')
-data.setCell(2, 3, 3135);
+data.setCell(2, 3, 933);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Get_tech_profile_list')
 data.setCell(3, 2, 'testCases.TestCases')
-data.setCell(3, 3, 406);
+data.setCell(3, 3, 422);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Retrain')
 data.setCell(4, 2, 'testCases.TestCases')
-data.setCell(4, 3, 390);
+data.setCell(4, 3, 257);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'CreateRouterConfig')
+data.setCell(5, 1, 'SetSpeed')
 data.setCell(5, 2, 'testCases.TestCases')
-data.setCell(5, 3, 265);
+data.setCell(5, 3, 226);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'GetSpeeds')
+data.setCell(6, 1, 'OamTest_new')
 data.setCell(6, 2, 'testCases.TestCases')
-data.setCell(6, 3, 234);
+data.setCell(6, 3, 208);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'SetSpeed')
+data.setCell(7, 1, 'CreateRouterConfig')
 data.setCell(7, 2, 'testCases.TestCases')
-data.setCell(7, 3, 218);
+data.setCell(7, 3, 202);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'OamTest_new')
+data.setCell(8, 1, 'GetSpeeds')
 data.setCell(8, 2, 'testCases.TestCases')
-data.setCell(8, 3, 187);
+data.setCell(8, 3, 197);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'CreateCrossConnetc')
 data.setCell(9, 2, 'testCases.TestCases')
-data.setCell(9, 3, 16);
+data.setCell(9, 3, 26);
 window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
 return data;
 }
@@ -702,172 +742,172 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TestCases</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">BeforeSuite(org.testng.TestRunner@1caae8)</span>
+                <span class="method-name">BeforeSuite(org.testng.TestRunner@cf5ac5)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@188a54)</span>
-                <span class="method-start">7379 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@1a2bc3)</span>
+                <span class="method-start">7448 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">7410 ms</span>
+                <span class="method-start">7478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">GetAccesspoint(TG300006)</span>
-                <span class="method-start">7410 ms</span>
+                <span class="method-start">7479 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=GetAccesspoint status=SUCCESS method=TestCases.GetAccesspoint(java.lang.String)[pri...)</span>
-                <span class="method-start">15823 ms</span>
+                <span class="method-start">20650 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@121bae7)</span>
-                <span class="method-start">15854 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@4df951)</span>
+                <span class="method-start">20696 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">15870 ms</span>
+                <span class="method-start">20697 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">SetSpeed(TG300006)</span>
-                <span class="method-start">15870 ms</span>
+                <span class="method-name">SetSpeed()</span>
+                <span class="method-start">20697 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=SetSpeed status=SUCCESS method=TestCases.SetSpeed(java.lang.String)[pri:0, instance...)</span>
-                <span class="method-start">16088 ms</span>
+                <span class="method-start">20924 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@175b933)</span>
-                <span class="method-start">16104 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@12b51b8)</span>
+                <span class="method-start">20948 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">16104 ms</span>
+                <span class="method-start">20949 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">GetSpeeds(TG300006)</span>
-                <span class="method-start">16104 ms</span>
+                <span class="method-name">GetSpeeds(PS300206, null, null, null, null)</span>
+                <span class="method-start">20949 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=GetSpeeds status=SUCCESS method=TestCases.GetSpeeds(java.lang.String)[pri:0, instan...)</span>
-                <span class="method-start">16338 ms</span>
+                <span class="method-name">afterMethod([TestResult name=GetSpeeds status=SUCCESS method=TestCases.GetSpeeds(java.lang.String, java.lang.Str...)</span>
+                <span class="method-start">21147 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@1d1e6e5)</span>
-                <span class="method-start">16338 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@1020ab5)</span>
+                <span class="method-start">21167 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">16353 ms</span>
+                <span class="method-start">21168 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Retrain(TG300006)</span>
-                <span class="method-start">16353 ms</span>
+                <span class="method-name">Retrain()</span>
+                <span class="method-start">21168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=Retrain status=SUCCESS method=TestCases.Retrain(java.lang.String)[pri:0, instance:t...)</span>
-                <span class="method-start">16743 ms</span>
+                <span class="method-start">21425 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@18ddef7)</span>
-                <span class="method-start">16759 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@10d0828)</span>
+                <span class="method-start">21448 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">16759 ms</span>
+                <span class="method-start">21449 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">OamTest_new(TG300006)</span>
-                <span class="method-start">16759 ms</span>
+                <span class="method-name">OamTest_new()</span>
+                <span class="method-start">21449 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=OamTest_new status=SUCCESS method=TestCases.OamTest_new(java.lang.String)[pri:0, in...)</span>
-                <span class="method-start">16946 ms</span>
+                <span class="method-start">21657 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@129373c)</span>
-                <span class="method-start">16962 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@92abdf)</span>
+                <span class="method-start">21676 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">16962 ms</span>
+                <span class="method-start">21676 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">OpenCloseService(TG300006)</span>
-                <span class="method-start">16962 ms</span>
+                <span class="method-start">21677 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=OpenCloseService status=SUCCESS method=TestCases.OpenCloseService(java.lang.String)...)</span>
-                <span class="method-start">20097 ms</span>
+                <span class="method-start">32043 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@e95d5b)</span>
-                <span class="method-start">20113 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@151cd27)</span>
+                <span class="method-start">32074 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">20113 ms</span>
+                <span class="method-start">32075 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CreateCrossConnetc(TG300006)</span>
-                <span class="method-start">20113 ms</span>
+                <span class="method-start">32075 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=CreateCrossConnetc status=SUCCESS method=TestCases.CreateCrossConnetc(java.lang.Str...)</span>
-                <span class="method-start">20129 ms</span>
+                <span class="method-start">32101 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@f005ef)</span>
-                <span class="method-start">20144 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@173d3b6)</span>
+                <span class="method-start">32125 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">20144 ms</span>
+                <span class="method-start">32126 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DeleteCrossConnetc(TG300006)</span>
-                <span class="method-start">20144 ms</span>
+                <span class="method-start">32127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=DeleteCrossConnetc status=SUCCESS method=TestCases.DeleteCrossConnetc(java.lang.Str...)</span>
-                <span class="method-start">33358 ms</span>
+                <span class="method-start">33061 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@159698)</span>
-                <span class="method-start">33374 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@15063e9)</span>
+                <span class="method-start">33080 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">33374 ms</span>
+                <span class="method-start">33081 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Get_tech_profile_list(TG300006)</span>
-                <span class="method-start">33374 ms</span>
+                <span class="method-name">Get_tech_profile_list()</span>
+                <span class="method-start">33081 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=Get_tech_profile_list status=SUCCESS method=TestCases.Get_tech_profile_list(java.la...)</span>
-                <span class="method-start">33780 ms</span>
+                <span class="method-start">33503 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@1caae8)</span>
-                <span class="method-start">33795 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@cf5ac5)</span>
+                <span class="method-start">33520 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">33795 ms</span>
+                <span class="method-start">33521 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CreateRouterConfig(TG300006)</span>
-                <span class="method-start">33795 ms</span>
+                <span class="method-start">33521 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=CreateRouterConfig status=SUCCESS method=TestCases.CreateRouterConfig(java.lang.Str...)</span>
-                <span class="method-start">34060 ms</span>
+                <span class="method-start">33723 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">34076 ms</span>
+                <span class="method-start">33741 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
