@@ -10,8 +10,8 @@
   forceresult = "1"
  />
  <retrain_request
-  lid = "86520141"
-  dslam = "aptxda1"
-  port = "1"
+  lid = "v_lid"
+  dslam = "v_dslam"
+  port = "v_port"
  />
 </ihtsoa>

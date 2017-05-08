@@ -46,7 +46,7 @@ public class CommonFunction {
 		return s;
 	}
 	
-	public String createDesiredXML_GetSpeds(String xmlFile2Send,Reporting obj_testReport,String LID,String channel_id, String dslam, String port, String sik) throws IOException{
+	public String createDesiredXML_GetSpeds(String xmlFile2Send,Reporting obj_testReport,String LID,String channel_id, String dslam, String port) throws IOException{
 		FileInputStream fin = new FileInputStream(xmlFile2Send);
 		ByteArrayOutputStream bout = new ByteArrayOutputStream();
 		copy(fin, bout);
@@ -55,7 +55,70 @@ public class CommonFunction {
 		StringBuffer buf=new StringBuffer();
 		String s=new String(b);
 		//replacing a sample value in Request XML
+		System.out.println("xml to send:"+xmlFile2Send);
+		System.out.println("LID:="+LID);
 		s=s.replaceAll("v_lid", LID);
+		s=s.replaceAll("v_channel_id", channel_id);
+		s=s.replaceAll("v_dslam", dslam);
+		s=s.replaceAll("v_port", port);
+	
+		//s=s.replaceAll("v_externalInstallationID", externalInstallationID);
+		return s;
+	}
+	
+	public String createDesiredXML_SetSpeds(String xmlFile2Send,Reporting obj_testReport,String LID,String dslam, String port, String test_speed) throws IOException{
+		FileInputStream fin = new FileInputStream(xmlFile2Send);
+		ByteArrayOutputStream bout = new ByteArrayOutputStream();
+		copy(fin, bout);
+		fin.close();
+		byte[] b = bout.toByteArray();
+		StringBuffer buf=new StringBuffer();
+		String s=new String(b);
+		//replacing a sample value in Request XML
+		System.out.println("xml to send:"+xmlFile2Send);
+		System.out.println("LID:="+LID);
+		s=s.replaceAll("v_lid", LID);
+		s=s.replaceAll("v_dslam", dslam);
+		s=s.replaceAll("v_port", port);
+		s=s.replaceAll("v_test_speed", test_speed);
+		//s=s.replaceAll("v_externalInstallationID", externalInstallationID);
+		return s;
+	}
+	
+	public String createDesiredXML_Retrain(String xmlFile2Send,Reporting obj_testReport,String LID,String dslam, String port) throws IOException{
+		FileInputStream fin = new FileInputStream(xmlFile2Send);
+		ByteArrayOutputStream bout = new ByteArrayOutputStream();
+		copy(fin, bout);
+		fin.close();
+		byte[] b = bout.toByteArray();
+		StringBuffer buf=new StringBuffer();
+		String s=new String(b);
+		//replacing a sample value in Request XML
+		System.out.println("xml to send:"+xmlFile2Send);
+		System.out.println("LID:="+LID);
+		s=s.replaceAll("v_lid", LID);
+		s=s.replaceAll("v_dslam", dslam);
+		s=s.replaceAll("v_port", port);
+		
+		//s=s.replaceAll("v_externalInstallationID", externalInstallationID);
+		return s;
+	}
+	
+	public String createDesiredXML_OamTest(String xmlFile2Send,Reporting obj_testReport,String sik,String dslam, String port) throws IOException{
+		FileInputStream fin = new FileInputStream(xmlFile2Send);
+		ByteArrayOutputStream bout = new ByteArrayOutputStream();
+		copy(fin, bout);
+		fin.close();
+		byte[] b = bout.toByteArray();
+		StringBuffer buf=new StringBuffer();
+		String s=new String(b);
+		//replacing a sample value in Request XML
+		System.out.println("xml to send:"+xmlFile2Send);
+		//System.out.println("LID:="+LID);
+		s=s.replaceAll("v_sik", sik);
+		s=s.replaceAll("v_dslam", dslam);
+		s=s.replaceAll("v_port", port);
+		
 		//s=s.replaceAll("v_externalInstallationID", externalInstallationID);
 		return s;
 	}

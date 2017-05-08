@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="1" total="10" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="26276" started-at="2017-04-26T09:21:10Z" finished-at="2017-04-26T09:21:36Z">
+  <suite name="RegressionSuite" duration-ms="30524" started-at="2017-05-05T14:04:46Z" finished-at="2017-05-05T14:05:16Z">
     <groups>
     </groups>
-    <test name="GetAccesspoint" duration-ms="13204" started-at="2017-04-26T09:21:10Z" finished-at="2017-04-26T09:21:23Z">
+    <test name="GetAccesspoint" duration-ms="3550" started-at="2017-05-05T14:04:46Z" finished-at="2017-05-05T14:04:49Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@1f75734]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:10Z" finished-at="2017-04-26T11:21:10Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@19af16]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:04:46Z" finished-at="2017-05-05T16:04:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1a2bc3]]>
+                <![CDATA[org.testng.TestRunner@24ad9b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@1f75734]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:10Z" finished-at="2017-04-26T11:21:10Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@19af16]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:04:46Z" finished-at="2017-05-05T16:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="GetAccesspoint(java.lang.String)[pri:0, instance:testCases.TestCases@1f75734]" name="GetAccesspoint" duration-ms="13171" started-at="2017-04-26T11:21:10Z" finished-at="2017-04-26T11:21:23Z">
+        <test-method status="PASS" signature="GetAccesspoint(java.lang.String)[pri:0, instance:testCases.TestCases@19af16]" name="GetAccesspoint" duration-ms="3521" started-at="2017-05-05T16:04:46Z" finished-at="2017-05-05T16:04:49Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetAccesspoint -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@1f75734]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:23Z" finished-at="2017-04-26T11:21:23Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@19af16]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:04:49Z" finished-at="2017-05-05T16:04:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GetAccesspoint status=SUCCESS method=TestCases.GetAccesspoint(java.lang.String)[pri:0, instance:testCases.TestCases@1f75734] output={null}]]]>
+                <![CDATA[[TestResult name=GetAccesspoint status=SUCCESS method=TestCases.GetAccesspoint(java.lang.String)[pri:0, instance:testCases.TestCases@19af16] output={null}]]]>
               </value>
             </param>
           </params>
@@ -46,39 +46,64 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- GetAccesspoint -->
-    <test name="SetSpeed" duration-ms="228" started-at="2017-04-26T09:21:23Z" finished-at="2017-04-26T09:21:23Z">
+    <test name="SetSpeed" duration-ms="4886" started-at="2017-05-05T14:04:49Z" finished-at="2017-05-05T14:04:54Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@6bb386]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:23Z" finished-at="2017-04-26T11:21:23Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@18f5c10]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:04:49Z" finished-at="2017-05-05T16:04:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4df951]]>
+                <![CDATA[org.testng.TestRunner@1c959]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="SetSpeed(java.lang.String)[pri:0, instance:testCases.TestCases@6bb386]" name="SetSpeed" duration-ms="226" started-at="2017-04-26T11:21:23Z" finished-at="2017-04-26T11:21:23Z">
+        <test-method status="PASS" signature="SetSpeed(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@18f5c10]" name="SetSpeed" duration-ms="4884" started-at="2017-05-05T16:04:49Z" finished-at="2017-05-05T16:04:54Z">
           <params>
             <param index="0">
               <value>
+                <![CDATA[PS200207]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
                 <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aptxdd1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetSpeed -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@6bb386]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:23Z" finished-at="2017-04-26T11:21:23Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@18f5c10]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:04:49Z" finished-at="2017-05-05T16:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@6bb386]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:23Z" finished-at="2017-04-26T11:21:23Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@18f5c10]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-05T16:04:54Z" finished-at="2017-05-05T16:04:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SetSpeed status=SUCCESS method=TestCases.SetSpeed(java.lang.String)[pri:0, instance:testCases.TestCases@6bb386] output={null}]]]>
+                <![CDATA[[TestResult name=SetSpeed status=SUCCESS method=TestCases.SetSpeed(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@18f5c10] output={null}]]]>
               </value>
             </param>
           </params>
@@ -87,20 +112,24 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- SetSpeed -->
-    <test name="GetSpeeds" duration-ms="199" started-at="2017-04-26T09:21:24Z" finished-at="2017-04-26T09:21:24Z">
+    <test name="GetSpeeds" duration-ms="5967" started-at="2017-05-05T14:04:54Z" finished-at="2017-05-05T14:05:00Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@73e835]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@c2c69f]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-05-05T16:04:54Z" finished-at="2017-05-05T16:04:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@12b51b8]]>
+                <![CDATA[org.testng.TestRunner@14a0173]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="GetSpeeds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@73e835]" name="GetSpeeds" duration-ms="197" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@c2c69f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:04:54Z" finished-at="2017-05-05T16:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="GetSpeeds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@c2c69f]" name="GetSpeeds" duration-ms="5966" started-at="2017-05-05T16:04:54Z" finished-at="2017-05-05T16:05:00Z">
           <params>
             <param index="0">
               <value>
@@ -108,30 +137,34 @@
               </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
             <param index="2">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[apt4xda5]]>
+              </value>
             </param>
             <param index="3">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[1]]>
+              </value>
             </param>
             <param index="4">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetSpeeds -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@73e835]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@73e835]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@c2c69f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:00Z" finished-at="2017-05-05T16:05:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GetSpeeds status=SUCCESS method=TestCases.GetSpeeds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@73e835] output={null}]]]>
+                <![CDATA[[TestResult name=GetSpeeds status=SUCCESS method=TestCases.GetSpeeds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@c2c69f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -140,39 +173,49 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- GetSpeeds -->
-    <test name="Retrain" duration-ms="259" started-at="2017-04-26T09:21:24Z" finished-at="2017-04-26T09:21:24Z">
+    <test name="Retrain" duration-ms="6034" started-at="2017-05-05T14:05:00Z" finished-at="2017-05-05T14:05:06Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@10ae6fc]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@1b9db06]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-05-05T16:05:00Z" finished-at="2017-05-05T16:05:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1020ab5]]>
+                <![CDATA[org.testng.TestRunner@1a528c2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@10ae6fc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@1b9db06]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:00Z" finished-at="2017-05-05T16:05:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Retrain(java.lang.String)[pri:0, instance:testCases.TestCases@10ae6fc]" name="Retrain" duration-ms="257" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="Retrain(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@1b9db06]" name="Retrain" duration-ms="6032" started-at="2017-05-05T16:05:00Z" finished-at="2017-05-05T16:05:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[PS300307]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apt4xda5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[104]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Retrain -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@10ae6fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@1b9db06]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-05T16:05:06Z" finished-at="2017-05-05T16:05:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Retrain status=SUCCESS method=TestCases.Retrain(java.lang.String)[pri:0, instance:testCases.TestCases@10ae6fc] output={null}]]]>
+                <![CDATA[[TestResult name=Retrain status=SUCCESS method=TestCases.Retrain(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@1b9db06] output={null}]]]>
               </value>
             </param>
           </params>
@@ -181,65 +224,77 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- Retrain -->
-    <test name="OamTest_new" duration-ms="209" started-at="2017-04-26T09:21:24Z" finished-at="2017-04-26T09:21:24Z">
+    <test name="OamTest_new" duration-ms="1" started-at="2017-05-05T14:05:06Z" finished-at="2017-05-05T14:05:06Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@12c61fe]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@170a570]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:06Z" finished-at="2017-05-05T16:05:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@10d0828]]>
+                <![CDATA[org.testng.TestRunner@16de87]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="OamTest_new(java.lang.String)[pri:0, instance:testCases.TestCases@12c61fe]" name="OamTest_new" duration-ms="208" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="OamTest_new(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCases@170a570]" name="OamTest_new" duration-ms="0" started-at="2017-05-05T16:05:06Z" finished-at="2017-05-05T16:05:06Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method OamTest_new requires 4 parameters but 3 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method OamTest_new requires 4 parameters but 3 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:495)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.TestNG.privateMain(TestNG.java:1425)
+	at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OamTest_new -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@12c61fe]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@12c61fe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=OamTest_new status=SUCCESS method=TestCases.OamTest_new(java.lang.String)[pri:0, instance:testCases.TestCases@12c61fe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- OamTest_new -->
-    <test name="OpenCloseService" duration-ms="10367" started-at="2017-04-26T09:21:24Z" finished-at="2017-04-26T09:21:35Z">
+    <test name="OpenCloseService" duration-ms="8442" started-at="2017-05-05T14:05:06Z" finished-at="2017-05-05T14:05:15Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@17d16fe]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@17d16fe]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:24Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@b2ea03]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:06Z" finished-at="2017-05-05T16:05:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@92abdf]]>
+                <![CDATA[org.testng.TestRunner@16b7537]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="OpenCloseService(java.lang.String)[pri:0, instance:testCases.TestCases@17d16fe]" name="OpenCloseService" duration-ms="10366" started-at="2017-04-26T11:21:24Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@b2ea03]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:06Z" finished-at="2017-05-05T16:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="OpenCloseService(java.lang.String)[pri:0, instance:testCases.TestCases@b2ea03]" name="OpenCloseService" duration-ms="8440" started-at="2017-05-05T16:05:06Z" finished-at="2017-05-05T16:05:15Z">
           <params>
             <param index="0">
               <value>
@@ -250,11 +305,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenCloseService -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@17d16fe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@b2ea03]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=OpenCloseService status=SUCCESS method=TestCases.OpenCloseService(java.lang.String)[pri:0, instance:testCases.TestCases@17d16fe] output={null}]]]>
+                <![CDATA[[TestResult name=OpenCloseService status=SUCCESS method=TestCases.OpenCloseService(java.lang.String)[pri:0, instance:testCases.TestCases@b2ea03] output={null}]]]>
               </value>
             </param>
           </params>
@@ -263,20 +318,24 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- OpenCloseService -->
-    <test name="CreateCrossConnetc" duration-ms="28" started-at="2017-04-26T09:21:35Z" finished-at="2017-04-26T09:21:35Z">
+    <test name="CreateCrossConnetc" duration-ms="24" started-at="2017-05-05T14:05:15Z" finished-at="2017-05-05T14:05:15Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@e784c0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@f7f18e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@151cd27]]>
+                <![CDATA[org.testng.TestRunner@1dc78dd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="CreateCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@e784c0]" name="CreateCrossConnetc" duration-ms="26" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@f7f18e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@f7f18e]" name="CreateCrossConnetc" duration-ms="22" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
           <params>
             <param index="0">
               <value>
@@ -287,15 +346,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCrossConnetc -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@e784c0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@e784c0]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@f7f18e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateCrossConnetc status=SUCCESS method=TestCases.CreateCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@e784c0] output={null}]]]>
+                <![CDATA[[TestResult name=CreateCrossConnetc status=SUCCESS method=TestCases.CreateCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@f7f18e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -304,24 +359,24 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- CreateCrossConnetc -->
-    <test name="DeleteCrossConnetc" duration-ms="936" started-at="2017-04-26T09:21:35Z" finished-at="2017-04-26T09:21:36Z">
+    <test name="DeleteCrossConnetc" duration-ms="821" started-at="2017-05-05T14:05:15Z" finished-at="2017-05-05T14:05:16Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@b05e0f]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@1929190]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@173d3b6]]>
+                <![CDATA[org.testng.TestRunner@18316f2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@b05e0f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:35Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@1929190]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="DeleteCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@b05e0f]" name="DeleteCrossConnetc" duration-ms="933" started-at="2017-04-26T11:21:35Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="DeleteCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@1929190]" name="DeleteCrossConnetc" duration-ms="820" started-at="2017-05-05T16:05:15Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
@@ -332,11 +387,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteCrossConnetc -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@b05e0f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@1929190]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=DeleteCrossConnetc status=SUCCESS method=TestCases.DeleteCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@b05e0f] output={null}]]]>
+                <![CDATA[[TestResult name=DeleteCrossConnetc status=SUCCESS method=TestCases.DeleteCrossConnetc(java.lang.String)[pri:0, instance:testCases.TestCases@1929190] output={null}]]]>
               </value>
             </param>
           </params>
@@ -345,20 +400,24 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- DeleteCrossConnetc -->
-    <test name="Get_tech_profile_list" duration-ms="423" started-at="2017-04-26T09:21:36Z" finished-at="2017-04-26T09:21:36Z">
+    <test name="Get_tech_profile_list" duration-ms="340" started-at="2017-05-05T14:05:16Z" finished-at="2017-05-05T14:05:16Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@1929190]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@e28063]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@15063e9]]>
+                <![CDATA[org.testng.TestRunner@157a416]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Get_tech_profile_list(java.lang.String)[pri:0, instance:testCases.TestCases@1929190]" name="Get_tech_profile_list" duration-ms="422" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@e28063]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Get_tech_profile_list(java.lang.String)[pri:0, instance:testCases.TestCases@e28063]" name="Get_tech_profile_list" duration-ms="338" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
@@ -369,15 +428,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get_tech_profile_list -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@1929190]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@1929190]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@e28063]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Get_tech_profile_list status=SUCCESS method=TestCases.Get_tech_profile_list(java.lang.String)[pri:0, instance:testCases.TestCases@1929190] output={null}]]]>
+                <![CDATA[[TestResult name=Get_tech_profile_list status=SUCCESS method=TestCases.Get_tech_profile_list(java.lang.String)[pri:0, instance:testCases.TestCases@e28063] output={null}]]]>
               </value>
             </param>
           </params>
@@ -386,35 +441,35 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TestCases -->
     </test> <!-- Get_tech_profile_list -->
-    <test name="CreateRouterConfig" duration-ms="204" started-at="2017-04-26T09:21:36Z" finished-at="2017-04-26T09:21:36Z">
+    <test name="CreateRouterConfig" duration-ms="245" started-at="2017-05-05T14:05:16Z" finished-at="2017-05-05T14:05:16Z">
       <class name="testCases.TestCases">
-        <test-method status="PASS" signature="BeforeSuite(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@74eb02]" name="BeforeSuite" is-config="true" duration-ms="7448" started-at="2017-04-26T11:21:03Z" finished-at="2017-04-26T11:21:10Z">
+        <test-method status="PASS" signature="BeforeSuite(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@deaa2e]" name="BeforeSuite" is-config="true" duration-ms="6336" started-at="2017-05-05T16:04:39Z" finished-at="2017-05-05T16:04:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cf5ac5]]>
+                <![CDATA[org.testng.TestRunner@93a0d7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@74eb02]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.TestCases@deaa2e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cf5ac5]]>
+                <![CDATA[org.testng.TestRunner@93a0d7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@74eb02]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TestCases@deaa2e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateRouterConfig(java.lang.String)[pri:0, instance:testCases.TestCases@74eb02]" name="CreateRouterConfig" duration-ms="202" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="CreateRouterConfig(java.lang.String)[pri:0, instance:testCases.TestCases@deaa2e]" name="CreateRouterConfig" duration-ms="243" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
@@ -425,18 +480,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateRouterConfig -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@74eb02]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:36Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.TestCases@deaa2e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateRouterConfig status=SUCCESS method=TestCases.CreateRouterConfig(java.lang.String)[pri:0, instance:testCases.TestCases@74eb02] output={null}]]]>
+                <![CDATA[[TestResult name=CreateRouterConfig status=SUCCESS method=TestCases.CreateRouterConfig(java.lang.String)[pri:0, instance:testCases.TestCases@deaa2e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TestCases@74eb02]" name="afterSuite" is-config="true" duration-ms="684" started-at="2017-04-26T11:21:36Z" finished-at="2017-04-26T11:21:37Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TestCases@deaa2e]" name="afterSuite" is-config="true" duration-ms="521" started-at="2017-05-05T16:05:16Z" finished-at="2017-05-05T16:05:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

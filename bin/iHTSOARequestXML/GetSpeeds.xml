@@ -13,6 +13,6 @@
   lid = "v_lid"
   channel_id = "v_channel_id"
   dslam = "v_dslam"
-  port = "v_dslam"
+  port = "v_port"
  />
 </ihtsoa>

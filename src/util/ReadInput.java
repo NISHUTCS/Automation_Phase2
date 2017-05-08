@@ -95,8 +95,10 @@ public class ReadInput {
 						String dslam=syncServiceSheet.getRow(i).getCell(4).getStringCellValue();
 						String port= String.valueOf(syncServiceSheet.getRow(i).getCell(5).getStringCellValue());
 						String sik=syncServiceSheet.getRow(i).getCell(6).getStringCellValue();
+						String test_speed=syncServiceSheet.getRow(i).getCell(7).getStringCellValue();
+						String technical_profile_name=syncServiceSheet.getRow(i).getCell(8).getStringCellValue();
 						//String externalInstallationID=syncServiceSheet.getRow(i).getCell(3).getStringCellValue();
-						AddTest addtest = new AddTest(testName, LID, channel_id, dslam, port, sik);
+						AddTest addtest = new AddTest(testName, LID, channel_id, dslam, port, sik, test_speed, technical_profile_name );
 						al.add(addtest);
 					}
 				}
@@ -120,8 +122,10 @@ public class ReadInput {
 						String dslam=syncServiceSheet.getRow(i).getCell(4).getStringCellValue();
 						String port=syncServiceSheet.getRow(i).getCell(5).getStringCellValue();
 						String sik=syncServiceSheet.getRow(i).getCell(6).getStringCellValue();
+						String test_speed=syncServiceSheet.getRow(i).getCell(7).getStringCellValue();
+						String technical_profile_name=syncServiceSheet.getRow(i).getCell(8).getStringCellValue();
 						//String externalInstallationID=syncServiceSheet.getRow(i).getCell(3).getStringCellValue();
-						AddTest addtest = new AddTest (testName, LID, channel_id, dslam, port, sik);;
+						AddTest addtest = new AddTest(testName, LID, channel_id, dslam, port, sik, test_speed, technical_profile_name );
 						al.add(addtest);
 
 					}

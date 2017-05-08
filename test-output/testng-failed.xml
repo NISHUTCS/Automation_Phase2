@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [RegressionSuite]">
+  <parameter name="dslam" value=""/>
+  <parameter name="port" value=""/>
+  <parameter name="technical_profile_name" value=""/>
+  <parameter name="test_speed" value=""/>
+  <parameter name="sik" value=""/>
+  <parameter name="LID" value="TG300006"/>
+  <parameter name="channel_id" value=""/>
+  <test name="OamTest_new(failed)">
+    <parameter name="port" value="1"/>
+    <parameter name="dslam" value="apt4xda5"/>
+    <parameter name="technical_profile_name" value=""/>
+    <parameter name="test_speed" value=""/>
+    <parameter name="sik" value="PS300206"/>
+    <parameter name="channel_id" value=""/>
+    <parameter name="LID" value=""/>
     <classes>
-      <class name="util.Readtest">
+      <class name="testCases.TestCases">
         <methods>
-          <include name="starttest"/>
+          <include name="BeforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="OamTest_new"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- util.Readtest -->
+      </class> <!-- testCases.TestCases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- OamTest_new(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

@@ -32,7 +32,7 @@ public class TestCases extends TestBase {
 			//CF.storeXML(modifiedxmlFile2Send, desiredxml,obj_testReport,"Request");
 			StringBuilder response=CF.sendRestRequest(RESTUrl, "test", xmlFile2Send, responseFileName,obj_testReport, desiredxml);
 			String responsexml=response.toString();
-			System.out.println("responce:"+response);
+			System.out.println("response:"+response);
 			CF.storeXML(responseFileName, responsexml,obj_testReport,"Response");
 			CF.ValidateXML(responsexml, "statuscode=\"0\"", obj_testReport);
 			CF.ValidateXML(responsexml, "statusmessage=\"No complications occured\"", obj_testReport);
@@ -43,9 +43,9 @@ public class TestCases extends TestBase {
 		}
 	}
 
-	@Parameters("LID")
+	@Parameters ({ "LID","channel_id","dslam","port","sik", "test_speed" })
 	@Test
-	public void SetSpeed(String LID) throws FileNotFoundException {
+	public void SetSpeed(String LID,String channel_id, String dslam, String port, String sik, String test_speed) throws FileNotFoundException {
 		//String statuscode = "statuscode=0";
 		CommonFunction cnf  = new CommonFunction();
 		cnf.getXMLtoSend();
@@ -59,7 +59,7 @@ public class TestCases extends TestBase {
 		Reporting obj_testReport = new Reporting(testName);
 		boolean testresult=true;
 		try {
-			String desiredxml=CF.createDesiredXML(xmlFile2Send, obj_testReport, LID);
+			String desiredxml=CF.createDesiredXML_SetSpeds(xmlFile2Send, obj_testReport, LID,dslam, port, test_speed);
 			//CF.storeXML(modifiedxmlFile2Send, desiredxml,obj_testReport,"Request");
 			StringBuilder response=CF.sendRestRequest(RESTUrl, "test", xmlFile2Send, responseFileName,obj_testReport, desiredxml);
 			String responsexml=response.toString();
@@ -74,8 +74,9 @@ public class TestCases extends TestBase {
 		}
 	}
 
+	
 	@Parameters({ "LID","channel_id","dslam","port","sik" })
-	@Test
+	@Test 
 	public void GetSpeeds(String LID, String channel_id, String dslam, String port, String sik) throws FileNotFoundException {
 		//String statuscode = "statuscode=0";
 		CommonFunction cnf  = new CommonFunction();
@@ -90,7 +91,7 @@ public class TestCases extends TestBase {
 		Reporting obj_testReport = new Reporting(testName);
 		boolean testresult=true;
 		try {
-			String desiredxml=CF.createDesiredXML(xmlFile2Send, obj_testReport, LID);
+			String desiredxml=CF.createDesiredXML_GetSpeds(xmlFile2Send, obj_testReport, LID, channel_id, dslam, port);
 			//CF.storeXML(modifiedxmlFile2Send, desiredxml,obj_testReport,"Request");
 			StringBuilder response=CF.sendRestRequest(RESTUrl, "test", xmlFile2Send, responseFileName,obj_testReport, desiredxml);
 			String responsexml=response.toString();
@@ -105,9 +106,10 @@ public class TestCases extends TestBase {
 		}
 	}
 
-	@Parameters("LID")
+	
+	@Parameters ({ "LID","dslam","port"})
 	@Test
-	public void Retrain(String LID) throws FileNotFoundException {
+	public void Retrain(String LID, String dslam, String port) throws FileNotFoundException {
 		//String statuscode = "statuscode=0";
 		CommonFunction cnf  = new CommonFunction();
 		cnf.getXMLtoSend();
@@ -121,7 +123,7 @@ public class TestCases extends TestBase {
 		Reporting obj_testReport = new Reporting(testName);
 		boolean testresult=true;
 		try {
-			String desiredxml=CF.createDesiredXML(xmlFile2Send, obj_testReport, LID);
+			String desiredxml=CF.createDesiredXML_Retrain(xmlFile2Send, obj_testReport, LID, dslam, port);
 			//CF.storeXML(modifiedxmlFile2Send, desiredxml,obj_testReport,"Request");
 			StringBuilder response=CF.sendRestRequest(RESTUrl, "test", xmlFile2Send, responseFileName,obj_testReport, desiredxml);
 			String responsexml=response.toString();
@@ -134,12 +136,11 @@ public class TestCases extends TestBase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 
-	@Parameters("LID")
+	@Parameters ({ "sik","dslam","port"})
 	@Test
-	public void OamTest_new(String LID) throws FileNotFoundException {
+	public void OamTest_new(String LID, String sik, String dslam, String port) throws FileNotFoundException {
 		//String statuscode = "statuscode=0";
 		CommonFunction cnf  = new CommonFunction();
 		cnf.getXMLtoSend();
@@ -153,7 +154,7 @@ public class TestCases extends TestBase {
 		Reporting obj_testReport = new Reporting(testName);
 		boolean testresult=true;
 		try {
-			String desiredxml=CF.createDesiredXML(xmlFile2Send, obj_testReport, LID);
+			String desiredxml=CF.createDesiredXML_OamTest(xmlFile2Send, obj_testReport, sik, dslam, port);
 			//CF.storeXML(modifiedxmlFile2Send, desiredxml,obj_testReport,"Request");
 			StringBuilder response=CF.sendRestRequest(RESTUrl, "test", xmlFile2Send, responseFileName,obj_testReport, desiredxml);
 			String responsexml=response.toString();
@@ -262,7 +263,7 @@ public class TestCases extends TestBase {
 		}
 	}
 
-	@Parameters("LID")
+	@Parameters ("LID")
 	@Test
 	public void Get_tech_profile_list(String LID) throws FileNotFoundException {
 		//String statuscode = "statuscode=0";

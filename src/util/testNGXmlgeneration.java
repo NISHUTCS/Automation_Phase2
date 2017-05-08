@@ -48,6 +48,8 @@ public class testNGXmlgeneration {
 			String dslam=st.dslam;
 			String port=st.port;
 			String sik=st.sik;
+			String test_speed=st.test_speed;
+			String technical_profile_name=st.technical_profile_name;
 			//String externalInstallationID=st.externalInstallationID;					
 			
 			br.write("<test name='"+testName+"'>");
@@ -61,6 +63,10 @@ public class testNGXmlgeneration {
 			br.write("<parameter name='port' value='"+port+"' />");
 			br.newLine();
 			br.write("<parameter name='sik' value='"+sik+"' />");
+			br.newLine();
+			br.write("<parameter name='test_speed' value='"+test_speed+"' />");
+			br.newLine();
+			br.write("<parameter name='technical_profile_name' value='"+technical_profile_name+"' />");
 			br.newLine();
 			/*br.write("<parameter name='externalInstallationID' value='"+externalInstallationID+"' />");
 			br.newLine();*/

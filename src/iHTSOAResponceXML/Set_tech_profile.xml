@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!DOCTYPE ihtsoa SYSTEM "gisla-pn2.ip.tdk.dk/ihtsoa/ihtsoaWholeSale.dtd">
-<ihtsoa operation="get_accesspoint">
- <header
-  userid = "lwe"
-  useremail ="lawe@tdc.dk"
-  trackingid = "poster_20170404105124"
-  versionid = "1.0"
-  companyid = "TDC"
-  forceresult = "1"
- />
- <get_accesspoint_request
-  lid = "v_lid"
- />
-</ihtsoa>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE ihtsoa SYSTEM "http://gisla-pn2.ip.tdk.dk/ihtsoa/ihtsoaWholeSale.dtd"><ihtsoa operation="set_tech_profile"> <header  userid="prose"  useremail="prose@tdc.dk"  trackingid="poster_20120824100147"  versionid="1.0"  companyid="TDC"  forceresult="1"  serverid="gisla-pn2.ip.tdk.dk"  replytimestamp="2017-05-05 08:55:18"  statuscode="101"  statusmessage="Technical Profile Name is missing in Request."  severitylevel="Fatal error"  transactionduration="0.000241" /> <set_tech_profile_request  dslam="apt4xda5"  port="1"  technical_profile_name="" /> <set_tech_profile_response/></ihtsoa>

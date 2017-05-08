@@ -10,8 +10,8 @@
   forceresult = "1"
  />
  <oamtest_request
-  sik = "KAOEFIB2"
-  dslam = "aptxda1"
-  port = "11715"
+  sik = "v_sik"
+  dslam = "v_dslam"
+  port = "v_port"
  />
 </ihtsoa>

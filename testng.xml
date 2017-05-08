@@ -2,10 +2,12 @@
 <suite name='RegressionSuite'>
 <test name='GetAccesspoint'>
 <parameter name='LID' value='TG300006' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='' />
+<parameter name='port' value='' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -15,11 +17,13 @@
 </classes>
 </test>
 <test name='SetSpeed'>
-<parameter name='LID' value='' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='LID' value='PS200207' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='aptxdd1' />
+<parameter name='port' value='1' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='1' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -30,10 +34,12 @@
 </test>
 <test name='GetSpeeds'>
 <parameter name='LID' value='PS300206' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='apt4xda5' />
+<parameter name='port' value='1' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -43,11 +49,13 @@
 </classes>
 </test>
 <test name='Retrain'>
-<parameter name='LID' value='' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='LID' value='PS300307' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='apt4xda5' />
+<parameter name='port' value='104' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -58,10 +66,12 @@
 </test>
 <test name='OamTest_new'>
 <parameter name='LID' value='' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='apt4xda5' />
+<parameter name='port' value='1' />
+<parameter name='sik' value='PS300206' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -72,10 +82,12 @@
 </test>
 <test name='OpenCloseService'>
 <parameter name='LID' value='TG300006' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='' />
+<parameter name='port' value='' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -86,10 +98,12 @@
 </test>
 <test name='CreateCrossConnetc'>
 <parameter name='LID' value='TG300006' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='' />
+<parameter name='port' value='' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -100,10 +114,12 @@
 </test>
 <test name='DeleteCrossConnetc'>
 <parameter name='LID' value='TG300006' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='' />
+<parameter name='port' value='' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -114,10 +130,12 @@
 </test>
 <test name='Get_tech_profile_list'>
 <parameter name='LID' value='' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='apt4xda5' />
+<parameter name='port' value='104' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='F40000/70000-T' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
@@ -128,10 +146,12 @@
 </test>
 <test name='CreateRouterConfig'>
 <parameter name='LID' value='TG300006' />
-<parameter name='channel_id' value='null' />
-<parameter name='dslam' value='null' />
-<parameter name='port' value='null' />
-<parameter name='sik' value='null' />
+<parameter name='channel_id' value='' />
+<parameter name='dslam' value='' />
+<parameter name='port' value='' />
+<parameter name='sik' value='' />
+<parameter name='test_speed' value='' />
+<parameter name='technical_profile_name' value='' />
 <classes>
 <class name='testCases.TestCases'>
 <methods>
